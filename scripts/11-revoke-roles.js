@@ -20,4 +20,5 @@ const token = sdk.getToken("0x1516E8E0051F823Fda0471Da0a0913c23Fb448fB");
   } catch (error) {
     console.error("Failed to revoke ourselves from the DAO trasury", error);
   }
+
 })();

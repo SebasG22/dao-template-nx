@@ -7,6 +7,7 @@ const vote = sdk.getVote("0x0b632d81648bc50E6a56976A9492B271Ee3eF245");
 // This is our ERC-20 contract.
 const token = sdk.getToken("0x1516E8E0051F823Fda0471Da0a0913c23Fb448fB");
 
+
 (async () => {
   try {
     // Create proposal to mint 420,000 new token to the treasury.
